@@ -21,7 +21,6 @@ body {
     width: 100%;
     height: inherit;
     overflow-y: scroll;
-
 }
 
 .formbody {
@@ -82,7 +81,7 @@ input[name^="hardcopy"] {
 #imgdiv {
     position: fixed;
     top: 58.5px;
-    left: 51.5%;
+    left: 52%;
     width: 31.5%;
     margin-right: 0;
     bottom: 200px;
