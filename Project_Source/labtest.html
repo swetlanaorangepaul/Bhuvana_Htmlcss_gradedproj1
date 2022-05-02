@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/labtest.css">
+        <title>Pharmacy</title>
+    </head>
+
+    <body>
+        <section id="mainsection">
+            <div id="formdiv">
+                <section class="formbody">
+                    <form href="#">
+                        <article>
+                            <section class="inputs">
+                                <h3>1. Your Contact Details</h3>
+                                <input type="text" title="fullname" required spellcheck="true" placeholder="Full Name"><br>
+                                <input type="number" min="6000000000" max="9999999999" required
+                                    placeholder="Contact Number">
+                            </section>
+                            <section class="inputs">
+                                <br>
+                                <input type="text" title="patientId" required spellcheck="true"
+                                    placeholder="Patient Id if exists"><br>
+                                <input type="email" required placeholder="Email Id">
+                            </section>
+                        </article>
+
+                        <article>
+                            <section class="inputs">
+                                <h3>2. Address</h3>
+                                <input type="text" placeholder="H:No" required><br>
+                                <input type="text" placeholder="Street" required>
+                            </section>
+                            <section class="inputs">
+                                <br><br>
+                                <input type="text" placeholder="Area" required><br>
+                                <span id="districtLabel">District</span><select name="District" id="district" required>
+                                    <option value="">Choose</option>
+                                    <option value="Chennai">Chennai</option>
+                                    <option value="Coimbatore">Coimbatore</option>
+                                    <option value="Dindigul">Dindigul</option>
+                                    <option value="Erode">Erode</option>
+                                    <option value="Kanchipuram">Kanchipuram</option>
+                                    <option value="Chengalpattu">Chengalpattu</option>
+                                    <option value="Nilgiris">Nilgiris</option>
+                                </select>
+                            </section>
+                        </article>
+
+                        <article>
+                            <h3>3. Choose the Test Type</h3><span class="whitePara">Check atleast one box without
+                                fail</span><br>
+                            <input type="checkbox" id="c1" name="option" value="CBC">
+                            <label for="c1">CBC</label>
+                            <br>
+                            <input type="checkbox" id="c2" name="option" value="Complete Urine">
+                            <label for="c2">Complete Urine</label>
+                            <br>
+                            <input type="checkbox" id="c3" name="option" value="Lipid Profile">
+                            <label for="c3">Lipid Profile</label>
+                            <br>
+                            <input type="checkbox" id="c4" name="option" value="Thyroid Stimulating Hormone(TSH)">
+                            <label for="c4">Thyroid Stimulating Hormone(TSH)</label>
+                            <br>
+                            <input type="checkbox" id="c5" name="option" value="Glucose Test">
+                            <label for="c5">Glucose Test</label>
+                            <br>
+                        </article>
+
+                        <article>
+                            <h3>4. Do you want a hard copy of the report also?</h3>
+                            <input type="radio" id="r1" name="hardcopy" value="True" required>
+                            <label for="r1">Yes</label>
+                            <input type="radio" id="r2" name="hardcopy" value="False">
+                            <label for="r2">No</label>
+                        </article>
+
+                        <article>
+                            <h3>5. Select Your Comfortable Date and Time</h3>
+                            <input type="datetime-local" required>
+                        </article>
+
+                        <div id="imgdiv">
+                        </div>
+
+                        <article id="buttonarticle">
+                            <button type="reset">Reset</button>
+                            <button type="submit">Submit</button>
+                        </article>
+                    </form>
+                </section>
+        </section>
+        <!-- <article id="buttonarticle">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </article> -->
+    </body>
+</html>

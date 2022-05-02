@@ -1,0 +1,134 @@
+body {
+    overflow-y: hidden;
+}
+
+#mainsection {
+    background-color: whitesmoke;
+    /* border: 2px solid green; */
+    position: relative;
+    width: 70%;
+    height: 450px;
+    top: 50px;
+    left: 15%;
+    bottom: 10px;
+    box-shadow: 2px 1px 5px 8px #888888;
+    border: 1px solid;
+}
+
+#formdiv {
+    position: absolute;
+    background-color: whitesmoke;
+    width: 100%;
+    height: inherit;
+    overflow-y: scroll;
+
+}
+
+.formbody {
+    width: 51%;
+    margin-top: 20px;
+    margin-left: 20px;
+    overflow-x: scroll;
+}
+
+input {
+    width: 200px;
+    border: none;
+    background-color: whitesmoke;
+    border-bottom: 1px solid gray;
+    height: 30px;
+    margin-left: 0%;
+}
+
+.inputs {
+    position: relative;
+    display: inline-block;
+    margin-left: 1%;
+}
+
+input,
+label,
+h3,
+#district {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#district {
+    height: 30px;
+    padding-left: 5%;
+    margin-left: 10px;
+    margin-bottom: 0%;
+    border-color: rgb(110, 108, 108);
+    background-color: whitesmoke;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+#districtLabel {
+    padding-top: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(110, 108, 108);
+}
+
+input[name^="option"],
+input[name^="hardcopy"] {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#imgdiv {
+    position: fixed;
+    top: 58.5px;
+    left: 51.5%;
+    width: 31.5%;
+    margin-right: 0;
+    bottom: 200px;
+    height: 450.5px;
+    z-index: 1;
+    background-image: url("../Images/Lab-Test/lab-test.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+article {
+    margin-top: 5%;
+}
+
+form {
+    margin-bottom: 8%;
+}
+
+img {
+    position: inherit;
+    width: 50%;
+}
+
+#buttonarticle{
+    position: fixed;
+    bottom:-4px;
+    z-index: 3;
+}
+button {
+    position: relative;
+    display: inline;
+    margin: 20px;
+    width: 80px;
+    border-radius: 4px;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    background-color: black;
+    left: 40%;
+    z-index: 3;
+}
+
+button:hover {
+    font-size: 22px;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+}
